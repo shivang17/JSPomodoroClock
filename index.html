@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Pomodoro Clock</title>
+
+		<!-- Start meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- End meta tags -->
+		<!--Link bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- Link font awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		</head>
+		<body class="text-center">
+		<h1>Pomodoro Clock</h1>
+
+		<header>
+			<section class="col-md-12 text-center">
+			<div id="BreakLength" class="col-md-6">
+			<p>BREAK LENGTH</p>
+			<button value="-" class="changeCounter break"><i class="fa fa-minus"></i></button>
+			<span>5</span>
+			<button value= "+" class="changeCounter break"><i class="fa fa-plus"></i></button>
+			</div>
+
+			<div id="SessionLength" class="col-md-6">
+			<p>SESSION LENGTH</p>
+			<button value="-" class="changeCounter session"><i class="fa fa-minus"></i></button>
+			<span>25</span>
+			<button value="+" class="changeCounter session"><i class="fa fa-plus"></i></button>
+			</div>
+			<div id="timer">
+			<h3>Session</h3>
+			<p>25:00</p>
+			</div>
+
+			<div id="buttonControls">
+			<button>Start</button>
+			<button>Pause</button>
+			<button>Reset</button>
+			</div>
+			</section>
+			</header>
+			<script src="main.js"></script>
+			</body>
+			</html>
